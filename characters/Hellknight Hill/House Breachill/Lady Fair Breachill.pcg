@@ -1,0 +1,239 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Adventurer's Armory 2|CAMPAIGN:Adventurer's Guide|CAMPAIGN:Healer's Handbook|CAMPAIGN:Divine Anthology|CAMPAIGN:Inner Sea Intrigue|CAMPAIGN:Armor Master's Handbook|CAMPAIGN:Ultimate Intrigue|CAMPAIGN:Arcane Anthology|CAMPAIGN:Agents of Evil|CAMPAIGN:Inner Sea Temples|CAMPAIGN:Black Markets|CAMPAIGN:Dirty Tactics Toolbox|CAMPAIGN:Cohorts and Companions|CAMPAIGN:Champions of Corruption|CAMPAIGN:Humans of Golarion|CAMPAIGN:Alchemy Manual|CAMPAIGN:Undead Slayer's Handbook|CAMPAIGN:Champions of Balance|CAMPAIGN:Pathfinder RPG for Game Masters|CAMPAIGN:Faiths and Philosophies|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Champions of Purity|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Blood of Fiends|CAMPAIGN:Faiths of Corruption|CAMPAIGN:Faiths of Balance|CAMPAIGN:Goblins of Golarion|CAMPAIGN:Ultimate Magic|CAMPAIGN:Faiths of Purity|CAMPAIGN:Ultimate Combat|CAMPAIGN:Halflings of Golarion|CAMPAIGN:Orcs of Golarion|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Faction Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Gnomes of Golarion|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Andoran - Spirit of Liberty|CAMPAIGN:Cheliax - Empire of Devils|CAMPAIGN:Elves of Golarion|CAMPAIGN:Martial Arts Handbook
+VERSION:6.08.00 RC10
+ROLLMETHOD:2|EXPRESSION:High Fantasy
+PURCHASEPOINTS:Y|TYPE:High Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:20
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Lady Fair Breachill
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:24
+GENDER:Female
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:12
+STAT:DEX|SCORE:15
+STAT:CON|SCORE:12
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:14
+STAT:CHA|SCORE:12
+ALIGN:TN
+RACE:Human
+
+# Character Class(es)
+CLASS:Ranger|LEVEL:3|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Ranger=1|HITPOINTS:10|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=2|HITPOINTS:1|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Ranger=3|HITPOINTS:10|SKILLSGAINED:8|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:5000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Racial Heritage ~ Human|CHOSENTEMPLATE:[NAME:IsHuman]]
+TEMPLATESAPPLIED:[NAME:IsHuman]
+TEMPLATESAPPLIED:[NAME:Bonus Language ~ Any Spoken]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|
+SKILL:Craft (Clockwork)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Ranger|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:11|
+SKILL:Diplomacy|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:16|
+SKILL:Disguise|OUTPUTORDER:18|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:19|
+SKILL:Escape Artist|OUTPUTORDER:20|
+SKILL:Fly|OUTPUTORDER:21|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:22|
+SKILL:Handle Animal|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Ranger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:25|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:26|
+SKILL:Heal|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Ranger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:30|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:31|
+SKILL:Knowledge (Geography)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Ranger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nature)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Ranger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nobility)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Ranger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:35|
+SKILL:Perception|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Ranger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:38|
+SKILL:Profession (Untrained)|OUTPUTORDER:39|
+SKILL:Ride|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Ranger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Samurai Mount|OUTPUTORDER:41|
+SKILL:Sense Motive|OUTPUTORDER:42|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:43|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:44|
+SKILL:Spellcraft|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Ranger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Ranger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Ranger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Ranger|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:51|
+SKILL:Untrained Dexterity|OUTPUTORDER:52|
+SKILL:Untrained Intelligence|OUTPUTORDER:53|
+SKILL:Untrained Strength|OUTPUTORDER:54|
+SKILL:Untrained Wisdom|OUTPUTORDER:55|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:17|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:23|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:36|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:45|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:47|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:56|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Infernal
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Infernal|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Combat Style|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style ~ Crossbow|TYPE:RangerCombatStyle
+USERPOOL:Combat Style|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mounted Archery|TYPE:Combat|DESC:You are skilled at making ranged attacks while mounted.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mounted Combat|TYPE:Combat.MountedMastery|DESC:You are adept at guiding your mount through combat.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point-Blank Shot|TYPE:Combat|DESC:You are especially accurate when making ranged attacks against close target.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Favored Enemy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Enemy ~ Humanoid (Goblinoid)|TYPE:RangerClassFeatures.FavoredEnemy.SpecialAttack.Extraordinary.AttackOption|DESC:You gain a +%1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks when using these skills against goblinoids. Likewise, you get a +%1 bonus on weapon attack and damage rolls against such creatures. You may make Knowledge Skill checks untrained to identify such creatures.&pipe;FavoredHumanoidGoblinoid
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+ABILITY:Favored Terrain|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Terrain ~ Plains|TYPE:RangerClassFeatures.SpecialQuality.Extraordinary.FavoredTerrain.BloodyJakeTerrain|DESC:You gain a +%1 bonus on Knowledge (Geography), Perception, Stealth, and Survival checks when using these skills in plains terrain. Likewise, you get a +%1 bonus on initiative checks when in this terrain. If you desire, you leave no trail in this terrain and cannot be tracked.&pipe;FavoredTerrainPlains
+USERPOOL:Favored Terrain|POOLPOINTS:0.0
+ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Ranger Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Ranger Archetype ~ Falconer|TYPE:Archetype.RangerArchetype.RangerCombatStyleFeat6.RangerWildEmpathy|DESC:Rangers have always enjoyed a special bond with a specific animal, but the falconer takes this bond to a deeper level. Falconers begin with their companion earlier than other rangers, and have the ability to teach their companions special tricks.
+USERPOOL:Ranger Archetype|POOLPOINTS:0.0
+ABILITY:Ranger Combat Style Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style Feat ~ Precise Shot|TYPE:RangerBonusFeat|DESC:You are adept at firing ranged attacks into melee.
+USERPOOL:Ranger Combat Style Feat|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Rich Parents|TYPE:Trait.BasicTrait.SocialTrait|DESC:You were born into a rich family, perhaps even the nobility. Your starting cash increases to 900 gp.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Traditionalist|TYPE:Trait.FaithTrait|DESC:You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is a class skill for you.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill]
+WEAPONPROF:[WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cat-O'-Nine-Tails|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple]
+WEAPONPROF:[WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo|WEAPON:Handaxe|WEAPON:Handwraps|WEAPON:Hooked Lance]
+WEAPONPROF:[WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance]
+WEAPONPROF:[WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade]
+WEAPONPROF:[WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Pliers (Tooth Fairy)|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife]
+WEAPONPROF:[WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Skull|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)]
+WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck|WEAPON:Switchblade Knife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)]
+WEAPONPROF:[WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Traveling Kettle|WEAPON:Trident]
+WEAPONPROF:[WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:900.00
+EQUIPNAME:Bolts, Crossbow (10)|OUTPUTORDER:4|COST:0.1|WT:0.1|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Base)|DATA:NAME=Bolts, Crossbow (10)$KEY=Bolts (Crossbow/10)$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Courtier's Outfit|OUTPUTORDER:2|COST:30|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Courtier's)|DATA:NAME=Courtier's Outfit$KEY=Outfit (Courtier's)]
+EQUIPNAME:Masterwork Chain Shirt|OUTPUTORDER:3|COST:250.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt (Base)|DATA:NAME=Masterwork Chain Shirt$KEY=Masterwork Chain Shirt (Base)$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Armor]
+EQUIPNAME:Masterwork Light Crossbow|OUTPUTORDER:1|COST:335.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Light Crossbow (Base)|DATA:NAME=Masterwork Light Crossbow$KEY=Masterwork Light Crossbow (Base)$EQMOD=Material ~ Wood.Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Masterwork Short Sword|OUTPUTORDER:5|COST:310.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Short Sword (Base)|DATA:NAME=Masterwork Short Sword$KEY=Masterwork Short Sword (Base)$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.01|VALUE:Courtier's Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.02|VALUE:Masterwork Chain Shirt|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.03|VALUE:Masterwork Light Crossbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.04|VALUE:Masterwork Short Sword|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.05|VALUE:Bolts, Crossbow (10)|QUANTITY:2.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Abadar|DEITYDOMAINS:[DOMAIN:Earth|DOMAIN:Law|DOMAIN:Nobility|DOMAIN:Protection|DOMAIN:Travel|DOMAIN:Portal Subdomain|DOMAIN:Aristocracy Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Leadership Subdomain|DOMAIN:Martyr Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Trade Subdomain]|ALIGNALLOW:|DESC:God of cities, wealth, merchants, law|DEITYFAVWEAP:[WEAPON:Crossbow (Light)]|DEITYALIGN:LN
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Rich Parents
+
+# Character Master/Follower
+FOLLOWER:Reever|TYPE:Animal Companion|RACE:COMPANION (BIRD (EAGLE))|HITDICE:0|FILE:Reever.pcg
+FOLLOWER:Dotty|TYPE:Mount|RACE:HORSE|HITDICE:0|FILE:Dotty.pcg
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:1:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

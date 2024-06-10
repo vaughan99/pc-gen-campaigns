@@ -1,0 +1,251 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Adventurer's Armory 2|CAMPAIGN:Adventurer's Guide|CAMPAIGN:Healer's Handbook|CAMPAIGN:Divine Anthology|CAMPAIGN:Inner Sea Intrigue|CAMPAIGN:Armor Master's Handbook|CAMPAIGN:Ultimate Intrigue|CAMPAIGN:Arcane Anthology|CAMPAIGN:Agents of Evil|CAMPAIGN:Inner Sea Temples|CAMPAIGN:Black Markets|CAMPAIGN:Dirty Tactics Toolbox|CAMPAIGN:Cohorts and Companions|CAMPAIGN:Champions of Corruption|CAMPAIGN:Humans of Golarion|CAMPAIGN:Alchemy Manual|CAMPAIGN:Undead Slayer's Handbook|CAMPAIGN:Champions of Balance|CAMPAIGN:Pathfinder RPG for Game Masters|CAMPAIGN:Faiths and Philosophies|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Champions of Purity|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Blood of Fiends|CAMPAIGN:Faiths of Corruption|CAMPAIGN:Faiths of Balance|CAMPAIGN:Goblins of Golarion|CAMPAIGN:Ultimate Magic|CAMPAIGN:Faiths of Purity|CAMPAIGN:Ultimate Combat|CAMPAIGN:Halflings of Golarion|CAMPAIGN:Orcs of Golarion|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Faction Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Gnomes of Golarion|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Andoran - Spirit of Liberty|CAMPAIGN:Cheliax - Empire of Devils|CAMPAIGN:Elves of Golarion|CAMPAIGN:Martial Arts Handbook
+VERSION:6.08.00 RC10
+ROLLMETHOD:2|EXPRESSION:High Fantasy
+PURCHASEPOINTS:Y|TYPE:High Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Lishah
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:22
+GENDER:Female
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:14
+STAT:DEX|SCORE:15
+STAT:CON|SCORE:14
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:10
+ALIGN:LE
+RACE:Human
+
+# Character Class(es)
+CLASS:Monk|LEVEL:4|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Monk=1|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=2|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=3|HITPOINTS:4|PRESTAT:CHA=-1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=4|HITPOINTS:4|PRESTAT:DEX=1|SKILLSGAINED:6|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:9000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Racial Heritage ~ Human|CHOSENTEMPLATE:[NAME:IsHuman]]
+TEMPLATESAPPLIED:[NAME:IsHuman]
+TEMPLATESAPPLIED:[NAME:Bonus Language ~ Any Spoken]
+TEMPLATESAPPLIED:[NAME:Monk HD d8]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Isger)]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity (Chelaxian)]
+
+# Character Region
+REGION:Isger
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Diplomacy|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Disguise|OUTPUTORDER:17|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
+SKILL:Escape Artist|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Fly|OUTPUTORDER:20|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
+SKILL:Handle Animal|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Monk|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:24|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:25|
+SKILL:Heal|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Intimidate|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Monk|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:30|
+SKILL:Knowledge (History)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Monk|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:33|
+SKILL:Perception|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Monk|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:36|
+SKILL:Profession (Barrister)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Monk|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Untrained)|OUTPUTORDER:38|
+SKILL:Ride|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Monk|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Samurai Mount|OUTPUTORDER:40|
+SKILL:Sense Motive|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:42|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:43|
+SKILL:Stealth|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:47|
+SKILL:Swim|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:49|
+SKILL:Untrained Dexterity|OUTPUTORDER:50|
+SKILL:Untrained Intelligence|OUTPUTORDER:51|
+SKILL:Untrained Strength|OUTPUTORDER:52|
+SKILL:Untrained Wisdom|OUTPUTORDER:53|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:34|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:44|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:45|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:54|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Infernal
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Infernal|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Constitution|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Drawbacks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Drawback ~ Meticulous|TYPE:Drawback|DESC:You plan and prepare everything in detail, and aren't good at improvising when things don't go as planned. You take a -2 penalty on skill checks for skills with which you're untrained.
+USERPOOL:Drawbacks|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Grapple|TYPE:Combat.AttackOption|DESC:You are skilled at grappling opponents.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Mounted Archery|TYPE:General|DESC:You are an expert at making ranged attacks while mounted.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point-Blank Shot|TYPE:Combat|DESC:You are especially accurate when making ranged attacks against close target.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Chelaxian|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Monk Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Monk Archetype ~ Sohei|TYPE:Archetype.MonkArchetype|DESC:The sohei are masters of the horse and the hunt. A monastic soldier, the sohei is equally adept at combat afoot or on horseback. While skilled in unarmed techniques, many sohei favor weapons they can use while mounted on horseback or against others' horses.
+USERPOOL:Monk Archetype|POOLPOINTS:0.0
+ABILITY:Monk Bonus Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk Bonus Feat ~ Mounted Archery|TYPE:MonkBonusFeat
+ABILITY:Monk Bonus Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk Bonus Feat ~ Mounted Combat|TYPE:MonkBonusFeat
+USERPOOL:Monk Bonus Feat|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Isger|TYPE:Region|DESC:Thrall of Cheliax
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Bastard|TYPE:Trait.BasicTrait.SocialTrait|DESC:You were born out of wedlock. You have always been an outsider in society, and in your own family. This perspective has sharpened your insight. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Child of the Temple|APPLIEDTO:Knowledge (Religion)|TYPE:Trait.BasicTrait.FaithTrait|DESC:You have long served at a temple in a city, where you picked up on many of the nobility's customs in addition to spending much time in the temple libraries studying your faith. You gain a +1 trait bonus on Knowledge (nobility) and Knowledge (religion) checks, and one of these skills (your choice) is always a class skill for you.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Devil Fighter|TYPE:Trait.CombatTrait|DESC:You gain a +1 trait bonus to your AC against attacks made by lawful outsiders.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill]
+WEAPONPROF:[WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cat-O'-Nine-Tails|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple]
+WEAPONPROF:[WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo|WEAPON:Handaxe|WEAPON:Handwraps|WEAPON:Hooked Lance]
+WEAPONPROF:[WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance]
+WEAPONPROF:[WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade]
+WEAPONPROF:[WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Pliers (Tooth Fairy)|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife]
+WEAPONPROF:[WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Skull|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)]
+WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck|WEAPON:Switchblade Knife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)]
+WEAPONPROF:[WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Traveling Kettle|WEAPON:Trident]
+WEAPONPROF:[WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:693.75
+EQUIPNAME:Alchemist's Fire|OUTPUTORDER:5|COST:20|WT:1.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Alchemist's Fire (Flask)|DATA:NAME=Alchemist's Fire$KEY=Alchemist's Fire (Flask)]
+EQUIPNAME:Arrows (20)|OUTPUTORDER:6|COST:0.05|WT:0.15|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrows (20)$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Ioun Torch|OUTPUTORDER:4|COST:75|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Masterwork Composite Shortbow (Bone/+2)|OUTPUTORDER:1|COST:487.5|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Shortbow (Base)|DATA:NAME=Masterwork Composite Shortbow (Bone/+2)$KEY=Masterwork Composite Shortbow (Base/Bone/+2)$EQMOD=Special Quality ~ Composite Bow Strength Rating&pipe;+2.Material ~ Bone.Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Masterwork Lamellar (Leather)|OUTPUTORDER:3|COST:210.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Lamellar (Leather)|DATA:NAME=Masterwork Lamellar (Leather)$EQMOD=Material ~ Leather.Special Quality ~ Masterwork ~ Armor]
+EQUIPNAME:Masterwork Shortened War Scythe|OUTPUTORDER:8|COST:375.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Falchion (Base)|DATA:NAME=Masterwork Shortened War Scythe$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon$SPROP=(Masterwork Falchion)]
+EQUIPNAME:Monk's Outfit|OUTPUTORDER:2|COST:5|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Monk's)|DATA:NAME=Monk's Outfit$KEY=Outfit (Monk's)]
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:0|COST:50.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Light Wounds|DATA:NAME=Potion of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Potion of Shield of Faith|OUTPUTORDER:0|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Shield of Faith +2|DATA:NAME=Potion of Shield of Faith$KEY=Potion of Shield of Faith +2$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Shield of Faith&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Slow Burn Arrow|OUTPUTORDER:7|COST:60|WT:0.0|QUANTITY:5.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.09|VALUE:Alchemist's Fire|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.10|VALUE:Monk's Outfit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.11|VALUE:Masterwork Composite Shortbow (Bone/+2)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.12|VALUE:Arrows (20)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.13|VALUE:Slow Burn Arrow|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.17|VALUE:Ioun Torch|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.19|VALUE:Masterwork Shortened War Scythe|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.20|VALUE:Masterwork Lamellar (Leather)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Asmodeus|DEITYDOMAINS:[DOMAIN:Evil|DOMAIN:Fire|DOMAIN:Law|DOMAIN:Magic|DOMAIN:Trickery|DOMAIN:Rites Subdomain|DOMAIN:Corruption Subdomain|DOMAIN:Greed Subdomain|DOMAIN:Arcane Subdomain|DOMAIN:Ash Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Smoke Subdomain]|ALIGNALLOW:|DESC:God of tyranny, slavery, pride, contracts|DEITYFAVWEAP:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]|DEITYALIGN:LE
+
+# Character Spells Information
+SPELLBOOK:Racial|TYPE:4
+SPELLBOOK:Prepared Spells|TYPE:2
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+FOLLOWER:Hellion|TYPE:Mount|RACE:HORSE|HITDICE:0|FILE:Hellion.pcg
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:1:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

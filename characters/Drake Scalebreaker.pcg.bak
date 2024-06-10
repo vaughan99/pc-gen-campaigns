@@ -1,0 +1,240 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Adventurer's Armory 2|CAMPAIGN:Adventurer's Guide|CAMPAIGN:Healer's Handbook|CAMPAIGN:Divine Anthology|CAMPAIGN:Inner Sea Intrigue|CAMPAIGN:Armor Master's Handbook|CAMPAIGN:Ultimate Intrigue|CAMPAIGN:Arcane Anthology|CAMPAIGN:Agents of Evil|CAMPAIGN:Inner Sea Temples|CAMPAIGN:Black Markets|CAMPAIGN:Dirty Tactics Toolbox|CAMPAIGN:Cohorts and Companions|CAMPAIGN:Champions of Corruption|CAMPAIGN:Humans of Golarion|CAMPAIGN:Alchemy Manual|CAMPAIGN:Undead Slayer's Handbook|CAMPAIGN:Champions of Balance|CAMPAIGN:Pathfinder RPG for Game Masters|CAMPAIGN:Faiths and Philosophies|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Champions of Purity|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Blood of Fiends|CAMPAIGN:Faiths of Corruption|CAMPAIGN:Faiths of Balance|CAMPAIGN:Goblins of Golarion|CAMPAIGN:Ultimate Magic|CAMPAIGN:Faiths of Purity|CAMPAIGN:Ultimate Combat|CAMPAIGN:Halflings of Golarion|CAMPAIGN:Orcs of Golarion|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Faction Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Gnomes of Golarion|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Andoran - Spirit of Liberty|CAMPAIGN:Cheliax - Empire of Devils|CAMPAIGN:Elves of Golarion|CAMPAIGN:Martial Arts Handbook
+VERSION:6.08.00 RC10
+ROLLMETHOD:2|EXPRESSION:High Fantasy
+PURCHASEPOINTS:Y|TYPE:High Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:20
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Drake Scalebreaker
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:14
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:17
+STAT:DEX|SCORE:13
+STAT:CON|SCORE:14
+STAT:INT|SCORE:11
+STAT:WIS|SCORE:6
+STAT:CHA|SCORE:14
+ALIGN:LE
+RACE:Kobold
+
+# Character Class(es)
+CLASS:Fighter|LEVEL:4|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:7|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:3|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:7|PRESTAT:STR=1|PRESTAT:STR=-1|PRESTAT:CHA=4|PRESTAT:WIS=-2|PRESTAT:INT=-1|PRESTAT:DEX=1|SKILLSGAINED:2|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:9000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Racial Heritage ~ Kobold|CHOSENTEMPLATE:[NAME:IsKobold]]
+TEMPLATESAPPLIED:[NAME:IsKobold]
+TEMPLATESAPPLIED:[NAME:Humanoid]
+TEMPLATESAPPLIED:[NAME:Reptilian]
+TEMPLATESAPPLIED:[NAME:Bonus Language ~ Common]
+TEMPLATESAPPLIED:[NAME:Bonus Language ~ Dwarven]
+TEMPLATESAPPLIED:[NAME:Bonus Language ~ Gnome]
+TEMPLATESAPPLIED:[NAME:Bonus Language ~ Undercommon]
+TEMPLATESAPPLIED:[NAME:SIZE_S]
+TEMPLATESAPPLIED:[NAME:Inherent Ability Bonus (Strength)|CHOSENTEMPLATE:[NAME:Inherent Strength Bonus +2]]
+TEMPLATESAPPLIED:[NAME:Inherent Strength Bonus +2]
+TEMPLATESAPPLIED:[NAME:Inherent Ability Bonus (Constitution)|CHOSENTEMPLATE:[NAME:Inherent Constitution Bonus +2]]
+TEMPLATESAPPLIED:[NAME:Inherent Constitution Bonus +2]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|
+SKILL:Craft (Armor)|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Diplomacy|OUTPUTORDER:11|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Disguise|OUTPUTORDER:17|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
+SKILL:Escape Artist|OUTPUTORDER:19|
+SKILL:Fly|OUTPUTORDER:20|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
+SKILL:Handle Animal|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:24|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:25|
+SKILL:Heal|OUTPUTORDER:26|
+SKILL:Intimidate|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:30|
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Engineering)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:33|
+SKILL:Perception|OUTPUTORDER:35|
+SKILL:Perform (Untrained)|OUTPUTORDER:36|
+SKILL:Profession (Untrained)|OUTPUTORDER:37|
+SKILL:Ride|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Samurai Mount|OUTPUTORDER:39|
+SKILL:Sense Motive|OUTPUTORDER:40|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:41|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:42|
+SKILL:Stealth|OUTPUTORDER:45|
+SKILL:Survival|OUTPUTORDER:46|
+SKILL:Swim|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:48|
+SKILL:Untrained Dexterity|OUTPUTORDER:49|
+SKILL:Untrained Intelligence|OUTPUTORDER:50|
+SKILL:Untrained Strength|OUTPUTORDER:51|
+SKILL:Untrained Wisdom|OUTPUTORDER:52|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:34|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:43|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:44|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:53|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Undercommon
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Drawbacks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Drawback ~ Vain|TYPE:Drawback|DESC:You are sensitive about the way others perceive you. Whenever you fail an opposed Charisma-based check, you take a -2 penalty on all Charisma-based checks for the next 24 hours.
+USERPOOL:Drawbacks|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Shield Bash|TYPE:Combat.AttackOption|DESC:You can protect yourself with your shield, even if you use it to attack.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Battleaxe|TYPE:Combat.WeaponFocus.OracleWeaponMastery|DESC:You are especially good at using your chosen weapon.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Fighter|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Fighter Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Fighter Archetype ~ Shielded Fighter|TYPE:Archetype.FighterArchetype.FighterArmorTraining_ALL.FighterWeaponTraining_ALL.FighterArmorMastery.FighterWeaponMastery|DESC:A shielded fighter focuses on both offense and defense, blending weapon and shield in perfect balance to impede his enemies while delivering deadly blows, and even turning the shield itself into a formidable weapon. These fighting school benefits apply when wielding a weapon and a shield simultaneously.
+USERPOOL:Fighter Archetype|POOLPOINTS:0.0
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Multiattack|TYPE:General.Combat|DESC:This creature is particularly skilled at making attacks with its natural weapons.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Tail Terror|TYPE:Combat|DESC:You have strengthened your tail enough to make slap attacks with it.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:Combat|DESC:You can fight with a weapon in each of your hands. You can make one extra attack each round with the secondary weapon.
+USERPOOL:Fighter Bonus Feat|POOLPOINTS:0.0
+ABILITY:Kobold Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Kobold ~ Beast Bond|TYPE:RacialTraits.Kobold Racial Trait.SpecialQuality.Special Quality.Applied Bonus|DESC:Some kobolds have a talent for training animals and beasts to help them both on and off the battlefield. Kobolds with this racial trait gain a +2 racial bonus on Handle Animal and Ride checks. Handle Animal and Ride are always class skills for them.|DESC:This racial trait replaces crafty.&pipe;!PREABILITY&colon;1,CATEGORY=Special Ability,Kobold ~ Beast Bond
+USERPOOL:Kobold Racial Trait|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Beast Bond|APPLIEDTO:Handle Animal,Ride|TYPE:Trait.BasicTrait.SocialTrait|DESC:You share a close bond with animals. You gain a +1 bonus on Handle Animal checks and Ride checks. One of these skills (your choice) is always a class skill for you.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Flame-Touched|TYPE:Trait.BasicTrait.MagicTrait|DESC:You share an affinity with elemental fire. You gain DR 1/- against creatures and attacks with the fire type.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill]
+WEAPONPROF:[WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cat-O'-Nine-Tails|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple]
+WEAPONPROF:[WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo|WEAPON:Handaxe|WEAPON:Handwraps|WEAPON:Hooked Lance]
+WEAPONPROF:[WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kobold Tail Attachment|WEAPON:Kukri]
+WEAPONPROF:[WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club]
+WEAPONPROF:[WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Pliers (Tooth Fairy)|WEAPON:Poisoned Sand Tube]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe]
+WEAPONPROF:[WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Skull|WEAPON:Sling|WEAPON:Spear]
+WEAPONPROF:[WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck|WEAPON:Switchblade Knife|WEAPON:Sword (Bastard)]
+WEAPONPROF:[WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tail Slap|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa]
+WEAPONPROF:[WEAPON:Traveling Kettle|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Banded Mail (Small)|OUTPUTORDER:3|COST:250.0|WT:17.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Banded Mail (Base)|DATA:NAME=Banded Mail (Small)$KEY=AUTOSIZESBanded Mail$SIZE=S$EQMOD=Material ~ Steel]
+EQUIPNAME:Battleaxe (Small)|OUTPUTORDER:1|COST:10.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe (Base)|DATA:NAME=Battleaxe (Small)$KEY=AUTOSIZESBattleaxe$SIZE=S$EQMOD=Material ~ Steel]
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Base)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)]
+EQUIPNAME:Heavy Steel Shield (Small/Shield Spikes)|OUTPUTORDER:4|COST:30.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Heavy Steel Shield (Base)|DATA:NAME=Heavy Steel Shield (Small/Shield Spikes)$KEY=Heavy Steel Shield (Base/Small/Shield Spikes)$SIZE=S$EQMOD=Material ~ Steel.Special Quality ~ Spikes ~ Shield]
+EQUIPNAME:Javelin (Small)|OUTPUTORDER:6|COST:1.0|WT:1.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Javelin (Base)|DATA:NAME=Javelin (Small)$KEY=AUTOSIZESJavelin$SIZE=S$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Tail Attachment (Razored) (Small)|OUTPUTORDER:5|COST:3.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Tail Attachment (Razored)|DATA:NAME=Tail Attachment (Razored) (Small)$KEY=AUTOSIZESTail Attachment (Razored)$SIZE=S$EQMOD=Material ~ Steel]
+EQUIPNAME:Tail Slap (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Tail Slap|DATA:KEY=Tail Slap]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.05|VALUE:Tail Attachment (Razored) (Small)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.08|VALUE:Banded Mail (Small)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.10|VALUE:Javelin (Small)|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Shield|ID:0.1.11|VALUE:Heavy Steel Shield (Small/Shield Spikes)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.12|VALUE:Battleaxe (Small)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.4|VALUE:Tail Slap (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Moloch|DEITYDOMAINS:[DOMAIN:Evil|DOMAIN:Fire|DOMAIN:Law|DOMAIN:War|DOMAIN:Ash Subdomain|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Smoke Subdomain|DOMAIN:Tactics Subdomain]|ALIGNALLOW:|DESC:Archdevil of fire, obedience, war|DEITYFAVWEAP:[WEAPON:Whip]|DEITYALIGN:LE
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+FOLLOWER:Greenfoot|TYPE:Mount|RACE:LIZARD (MONITOR)|HITDICE:0|FILE:Greenfoot.pcg
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:1:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

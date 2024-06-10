@@ -1,0 +1,274 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Adventurer's Armory 2|CAMPAIGN:Adventurer's Guide|CAMPAIGN:Healer's Handbook|CAMPAIGN:Divine Anthology|CAMPAIGN:Inner Sea Intrigue|CAMPAIGN:Armor Master's Handbook|CAMPAIGN:Ultimate Intrigue|CAMPAIGN:Arcane Anthology|CAMPAIGN:Agents of Evil|CAMPAIGN:Inner Sea Temples|CAMPAIGN:Black Markets|CAMPAIGN:Dirty Tactics Toolbox|CAMPAIGN:Cohorts and Companions|CAMPAIGN:Champions of Corruption|CAMPAIGN:Humans of Golarion|CAMPAIGN:Alchemy Manual|CAMPAIGN:Undead Slayer's Handbook|CAMPAIGN:Champions of Balance|CAMPAIGN:Pathfinder RPG for Game Masters|CAMPAIGN:Faiths and Philosophies|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Champions of Purity|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Blood of Fiends|CAMPAIGN:Faiths of Corruption|CAMPAIGN:Faiths of Balance|CAMPAIGN:Goblins of Golarion|CAMPAIGN:Ultimate Magic|CAMPAIGN:Faiths of Purity|CAMPAIGN:Ultimate Combat|CAMPAIGN:Halflings of Golarion|CAMPAIGN:Orcs of Golarion|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Faction Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Gnomes of Golarion|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Andoran - Spirit of Liberty|CAMPAIGN:Cheliax - Empire of Devils|CAMPAIGN:Elves of Golarion|CAMPAIGN:Martial Arts Handbook
+VERSION:6.08.00 RC10
+ROLLMETHOD:2|EXPRESSION:High Fantasy
+PURCHASEPOINTS:Y|TYPE:High Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:20
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Iron Edu
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:31
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:14
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:14
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:10
+ALIGN:LE
+RACE:Human
+
+# Character Class(es)
+CLASS:Magus|LEVEL:7|SKILLPOOL:8
+CLASSABILITIESLEVEL:Magus=1|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Magus=2|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Magus=3|HITPOINTS:2|SKILLSGAINED:6|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Magus=4|HITPOINTS:8|PRESTAT:INT=1|SKILLSGAINED:6|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Magus=5|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Magus=6|HITPOINTS:2|SKILLSGAINED:6|SKILLSREMAINING:1
+CLASSABILITIESLEVEL:Magus=7|HITPOINTS:8|PRESTAT:DEX=-2|PRESTAT:INT=1|SKILLSGAINED:6|SKILLSREMAINING:1
+
+# Character Experience
+EXPERIENCE:35000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Racial Heritage ~ Human|CHOSENTEMPLATE:[NAME:IsHuman]]
+TEMPLATESAPPLIED:[NAME:IsHuman]
+TEMPLATESAPPLIED:[NAME:Bonus Language ~ Any Spoken]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Diplomacy|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Magus|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Disguise|OUTPUTORDER:17|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
+SKILL:Escape Artist|OUTPUTORDER:19|
+SKILL:Fly|OUTPUTORDER:20|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
+SKILL:Heal|OUTPUTORDER:25|
+SKILL:Intimidate|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Magus|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Magus|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Magus|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Planes)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Magus|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:33|
+SKILL:Perception|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Magus|RANKS:6.0|COST:1|CLASSSKILL:N]
+SKILL:Perform (Untrained)|OUTPUTORDER:36|
+SKILL:Profession (Untrained)|OUTPUTORDER:37|
+SKILL:Ride|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Magus|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Samurai Mount|OUTPUTORDER:39|
+SKILL:Sense Motive|OUTPUTORDER:40|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:41|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:42|
+SKILL:Spellcraft|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Magus|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:46|
+SKILL:Survival|OUTPUTORDER:47|
+SKILL:Swim|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Magus|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:49|
+SKILL:Untrained Dexterity|OUTPUTORDER:50|
+SKILL:Untrained Intelligence|OUTPUTORDER:51|
+SKILL:Untrained Strength|OUTPUTORDER:52|
+SKILL:Untrained Wisdom|OUTPUTORDER:53|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:34|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:43|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:45|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:54|
+SKILL:Use Magic Device|CLASSBOUGHT:[CLASS:Magus|RANKS:2.0|COST:1|CLASSSKILL:Y]
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Infernal
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Armor Proficiency (Heavy)|TYPE:Combat|DESC:You are skilled at wearing heavy armor.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.DragonShamanBonus|DESC:You are adept at spellcasting when threatened or distracted.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Katana|TYPE:Combat|DESC:You understand how to use your chosen exotic weapon in combat, and can utilize any special tricks or qualities that exotic weapon might allow.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Otherworldy Influence|TYPE:Story|DESC:Extradimensional forces vie for your soul, and have offered you riches and power to claim it.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Katana|TYPE:Combat.WeaponFocus.OracleWeaponMastery|DESC:You are especially good at using your chosen weapon.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Magus|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Magus Arcana|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Magus Arcana ~ Prescient Attack|TYPE:Supernatural.MagusArcana.SpecialQuality|DESC:The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack, allowing him to anticipate his opponent's defenses. The target is denied its Dexterity bonus against the magus's attacks until the end of the magus's next turn. The magus must be at least 6th level before selecting this arcana.
+USERPOOL:Magus Arcana|POOLPOINTS:0.0
+ABILITY:Magus Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Magus Archetype ~ Armored Battlemage|TYPE:Archetype.MagusArchetype|DESC:Many battlemages focus purely on destructive evocations, but some extend their tactical studies to include use of the tried-and-true protection of steel. These armored battlemages learn to move and cast spells in even the most restrictive armors, and have developed new methods to magically enhance their armor.
+USERPOOL:Magus Archetype|POOLPOINTS:0.0
+ABILITY:Magus Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:Combat|DESC:You can draw weapons faster than most.
+USERPOOL:Magus Bonus Feat|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Classically Schooled|TYPE:Trait.BasicTrait.MagicTrait|DESC:Your apprenticeship or early education was particularly focused on the direct application of magic. You gain a +1 trait bonus on Spellcraft checks, and Spellcraft is always a class skill for you.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Ease of Faith|TYPE:Trait.BasicTrait.FaithTrait|DESC:Your mentor, the person who invested your faith in you from an early age, took steps to ensure you understood that what powers your divine magic is no different from that which powers the magic of other religions. This philosophy makes it easier for you to interact with others who may not share your views. You gain a +1 bonus on Diplomacy checks, and Diplomacy is always a class skill for you.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill]
+WEAPONPROF:[WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cat-O'-Nine-Tails|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker]
+WEAPONPROF:[WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple]
+WEAPONPROF:[WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo|WEAPON:Handaxe|WEAPON:Handwraps|WEAPON:Hooked Lance]
+WEAPONPROF:[WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance]
+WEAPONPROF:[WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade]
+WEAPONPROF:[WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Pliers (Tooth Fairy)|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife]
+WEAPONPROF:[WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Skull|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)]
+WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck|WEAPON:Switchblade Knife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)]
+WEAPONPROF:[WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Traveling Kettle|WEAPON:Trident]
+WEAPONPROF:[WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:+1 Full Plate|OUTPUTORDER:3|COST:2650.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate (Base)|DATA:NAME=+1 Full Plate$KEY=+1 Full Plate (Base)$EQMOD=Special Ability ~ +1 ~ Armor]
+EQUIPNAME:+1 Katana|OUTPUTORDER:1|COST:2350.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Katana|DATA:NAME=+1 Katana$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon]
+EQUIPNAME:Belt of Mighty Constitution +2|OUTPUTORDER:2|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Base)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)]
+EQUIPNAME:Spellbook|OUTPUTORDER:4|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook|DATA:NAME=Spellbook]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.02|VALUE:+1 Full Plate|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.03|VALUE:+1 Katana|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Belt|ID:0.1.04|VALUE:Belt of Mighty Constitution +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.1|VALUE:Spellbook|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Mammon|DEITYDOMAINS:[DOMAIN:Artifice|DOMAIN:Earth|DOMAIN:Evil|DOMAIN:Law|DOMAIN:Construct Subdomain|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Metal Subdomain|DOMAIN:Toil Subdomain]|ALIGNALLOW:|DESC:Archdevil of avarice, watchfulness, wealth|DEITYFAVWEAP:[WEAPON:Shortspear]|DEITYALIGN:LE
+
+# Character Spells Information
+SPELLBOOK:Spellbook|TYPE:3
+SPELLBOOK:Prepared Spells|TYPE:2
+SPELLNAME:Alter Self|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Aqueous Orb|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Aqueous Orb|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Blur|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Burning Hands|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Chill Touch|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Color Spray|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Detect Fiendish Presence|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Disguise Weapon|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Disguise Weapon|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Dispel Magic|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Dispel Magic|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Effortless Armor|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Effortless Armor|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Enlarge Person|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Floating Disk|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Invisibility|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Invisibility|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Levitate|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Light|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Mage Hand|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Magic Missile|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Magic Missile|TIMES:2|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Mirror Image|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Mirror Image|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Pyrotechnics|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Ray of Enfeeblement|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Ray of Frost|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Scorching Ray|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Spark|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Time Shudder|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Time Shudder|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:True Strike|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Unseen Servant|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Unseen Servant|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Vanish|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Vanish|TIMES:1|CLASS:Magus|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Magus Spellbook
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:1:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
